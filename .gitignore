@@ -1,0 +1,12 @@
+# Go build outputs
+/consumer
+/producer
+/server
+/bin/
+
+# Runtime data
+/data/log/
+
+# Temporary files
+*.test
+*.out
