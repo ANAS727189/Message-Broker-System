@@ -577,17 +577,3 @@ These are not bugs in the current design, but they are important constraints:
 - compression is not implemented
 - protocol framing is simple and does not yet include all Kafka-style metadata
 
-## Suggested Next Steps
-
-If this project is extended further, the highest-value improvements would be:
-
-1. batching for produce and fetch requests
-2. partitioning by topic
-3. replication and leader/follower synchronization
-4. retention and cleanup policies
-5. consumer group coordination and rebalance logic
-6. message metadata such as keys and timestamps
-
-## License
-
-No license has been specified in this repository.
